@@ -23,6 +23,7 @@ What does it mean for a user to 'log in'? The action of logging in is the simple
 
 #### A Note On Password Encryption
 
+
 For the time being, we will simply store a user's password in the database in its raw form. However, that is not safe! In an upcoming lesson, we'll learn about password encryption: the act of scrambling a user's password into a super-secret code and storing a de-crypter that will be able to match up a plaintext password entered by a user with the encrypted version stored in a database.
 
 ### Logging Out
